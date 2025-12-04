@@ -1,0 +1,13 @@
+train: /home/eeel126/Desktop/ENEL645Project/overhead_vehicle_detection/train/images
+val: /home/eeel126/Desktop/ENEL645Project/overhead_vehicle_detection/valid/images
+test: /home/eeel126/Desktop/ENEL645Project/overhead_vehicle_detection/test/images
+
+nc: 10
+names: ['boat', 'camping car', 'car', 'motorcycle', 'other', 'pickup', 'plane', 'tractor', 'truck', 'van']
+
+roboflow:
+  workspace: artsywelshman
+  project: overhead-vehicle-detection-t1llw
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/artsywelshman/overhead-vehicle-detection-t1llw/dataset/1
