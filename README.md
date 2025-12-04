@@ -11,7 +11,7 @@ For more research and open-source contributions, please visit [IDCL Lab GitHub p
 - Hiranya – MSc, IDCL, University of Calgary
 - Fisayo – MSc, IDCL, University of Calgary
 
-To use this training script, download the zip folder and extract all. 
+To use this training script, download ultralytics and following pytorch and cuda versions:
 
 System info: 
   Pytorch 2.5.1+cu121
@@ -20,6 +20,8 @@ System info:
 
   Activate the vstran environment as your first step:
   source /home/.../ENEL645Project/vs_tran/bin/activate
+
+  Email daniel.yang2@ucalgary.ca for .pt files. They are too large to be uploaded.
 
   For training using yolo CLI (ie. teacher model) use yolo train, for example:
   yolo train \
