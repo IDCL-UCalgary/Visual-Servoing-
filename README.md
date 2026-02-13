@@ -1,5 +1,4 @@
-# Visual-Servoing
-Group Project for ENEL645.
+# A Compact and Efficient Model for Aerial Object Detection
 
 
 This repository was initiated and completed by [Daniel](your github profile address)'s, [Hiranya](your github profile address)'s, [Fisayo](your github profile address)'s MSc students in the [Intelligent Dynamics and Control Lab (IDCL)](https://ucalgary.ca/labs/intelligent-dynamics-control-lab), [Department of Mechanical and Manufacturing Engineering](https://schulich.ucalgary.ca/mechanical-manufacturing), Schulich School of Engineering, University of Calgary. The lab director is [Dr. Mahdis Bisheban](https://profiles.ucalgary.ca/mahdis-bisheban). The project was supervised by [Dr. Samira Ebrahimi Kahou](https://saebrahimi.github.io) and  [Dr. Mahdis Bisheban](https://profiles.ucalgary.ca/mahdis-bisheban).
