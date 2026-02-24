@@ -178,7 +178,7 @@ In pickled data files. A plotting script is also uploaded for visualizing the pl
 </p>
 
 <p align="center">
-  <em>Left: Depth Reduced RTDETR-L Model &nbsp;&nbsp;&nbsp; Middle: PVDS Model &nbsp;&nbsp;&nbsp; Right: YOLO Model</em>
+  <em>Left: Depth Reduced RTDETR-L Model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Middle: PVDS Model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Right: YOLO Model</em>
 </p>
 
 ---
