@@ -103,7 +103,9 @@ yolo train \
   lr0=0.00001 \
   lrf=0.02
 ```
-Not that rtdetr-l.pt is taken from [Ultralytics Open Source Library](https://docs.ultralytics.com/models/rtdetr/#supported-tasks-and-modes)
+
+Note that rtdetr-l.pt is taken from [Ultralytics Open Source Library](https://docs.ultralytics.com/models/rtdetr/#supported-tasks-and-modes)
+
 ---
 
 ### Train Student Model with Knowledge Distillation
