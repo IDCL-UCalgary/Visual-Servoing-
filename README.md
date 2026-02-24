@@ -1,7 +1,7 @@
 # A Compact and Efficient Model for Aerial Object Detection
 
 <p align="center">
-  <img src="Media/kinova-orange.gif" width="95%" />
+  <img src="Media/kinova-orange.gif" width="70%" />
 </p>
 
 <p align="center">
