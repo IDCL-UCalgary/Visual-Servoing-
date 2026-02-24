@@ -21,8 +21,8 @@ This project was completed by MSc students in the Intelligent Dynamics and Contr
 ## Authors
 
 - Daniel Yang — MSc Student, IDCL  
-- Hiranya — MSc Student, IDCL  
-- Fisayo — MSc Student, IDCL  
+- Fisayo Olofin — MSc Student, IDCL
+- Hiranya Udagedara — MSc Student, IDCL  
 
 **Lab:** Intelligent Dynamics and Control Lab (IDCL)  
 Department of Mechanical and Manufacturing Engineering  
@@ -31,8 +31,8 @@ University of Calgary
 
 Lab Director: Dr. Mahdis Bisheban  
 Supervisors:  
-- Dr. Samira Ebrahimi Kahou  
 - Dr. Mahdis Bisheban  
+- Dr. Samira Ebrahimi Kahou  
 
 More research from IDCL:  
 https://github.com/IDCL-UCalgary
@@ -43,15 +43,15 @@ https://github.com/IDCL-UCalgary
 
 ```
 .
-├── Media/                      # Demo GIFs for README
-├── Results/                    # Evaluation outputs
-├── Student_results/            # Student model metrics
-├── teacher_results/            # Teacher model metrics
-├── knowledge_distillation_trainer.py
-├── modelChange.py
-├── rtdetr-s.yaml
-├── rtdetr-l.yaml
-├── data.yaml
+├── Media/                             # Demo GIFs for README
+├── Results/                           # Evaluation outputs from our "PDVS-RT-DETR: A Compact and Efficient Model for Aerial Vehicle Detection" paper
+├── Student_results/                   #ARCHIVED: OLD MODEL
+├── teacher_results/                   #ARCHIVED: OLD MODEL
+├── knowledge_distillation_trainer.py  #ARCHIVED: OLD SCRIPT
+├── modelChange.py                     # Convert trained model to YOLO readable
+├── rtdetr-s.yaml                      # DVS Student Architecture
+├── rtdetr-l.yaml                      # Teacher Model Architecture
+├── data.yaml                          #ARCHIVED: OLD TRAINING YAML FILE
 └── README.md
 ```
 
@@ -132,25 +132,11 @@ This converts the distilled model into YOLO-compatible format.
 
 ---
 
-## Inference
-
-```bash
-yolo predict \
-  model=/path/to/runs/detect/student/weights/best.pt \
-  source=/path/to/overhead_drone.mp4 \
-  iou=0.5 \
-  conf=0.45
-```
-
 ---
 
 ## Model Weights
 
-Model weights (`.pt` files) are not included due to size constraints.
-
-For access, contact:
-
-daniel.yang2@ucalgary.ca
+Model weights (`.pt` files) are attached using Github LFS. These models are yolo compatible and can be used as pretrained weights for similar detection tasks or for inference.
 
 ---
 
@@ -159,8 +145,6 @@ daniel.yang2@ucalgary.ca
 Performance metrics for teacher and student models are available in:
 
 - `Results/`
-- `Student_results/`
-- `teacher_results/`
 
 Metrics include:
 - Precision
@@ -168,6 +152,7 @@ Metrics include:
 - mAP
 - F1-score
 - Confusion matrices
+In pickled data files. A plotting script is also uploaded for visualizing the plots in our paper.
 
 ---
 
