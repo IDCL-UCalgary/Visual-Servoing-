@@ -90,7 +90,7 @@ Adjust the path according to your system.
 
 ```bash
 yolo train \
-  model=/path/to/rtdetr-l.yaml \
+  model=/path/to/rtdetr-l.pt \
   data=/path/to/data.yaml \
   epochs=125 \
   imgsz=640 \
@@ -102,20 +102,32 @@ yolo train \
   lr0=0.00001 \
   lrf=0.02
 ```
-
+Not that rtdetr-l.pt is taken from [Ultralytics Open Source Library](https://docs.ultralytics.com/models/rtdetr/#supported-tasks-and-modes)
 ---
 
 ### Train Student Model with Knowledge Distillation
 
-1. Open `knowledge_distillation_trainer.py`
+1. Open `DVS_trainer.py`
 2. Adjust:
    - Teacher `.pt` file paths
-   - YAML configuration paths
-   - Dataset paths
+   - YAML File to match the desired detection task. For differing number of classes change all instances of '.nc'
+   - YAML configuration path
+   - Dataset paths in YAML file
 3. Run:
 
 ```bash
-python knowledge_distillation_trainer.py
+python DVS_trainer.py
+```
+
+4. Open `PDVS_trainer.py`
+5. Adjust:
+   - Teacher `.pt` file path
+   - YAML configuration path
+   - Pruning ratio if desired
+6. Run:
+
+```bash
+python PDVS_trainer.py
 ```
 
 ---
@@ -155,6 +167,23 @@ Metrics include:
 In pickled data files. A plotting script is also uploaded for visualizing the plots in our paper.
 
 ---
+
+
+## DVS RTDETR-L and YOLO Comparison
+
+<p align="center">
+  <img src="Media/dvs-rtdetr-apples.gif" width="30%" />
+  <img src="Media/pdvs-apples.gif" width="30%" />
+  <img src="Media/yolo-apple.gif" width="30%" />
+</p>
+
+<p align="center">
+  <em>Left: Depth Reduced RTDETR-L Model &nbsp;&nbsp;&nbsp; Middle: PVDS Model &nbsp;&nbsp;&nbsp; Right: YOLO Model</em>
+</p>
+
+---
+
+
 
 ## Citation
 
