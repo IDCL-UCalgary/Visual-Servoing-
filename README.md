@@ -175,15 +175,15 @@ In pickled data files. A plotting script is also uploaded for visualizing the pl
 <table align="center">
   <tr>
     <td align="center">
-      <img src="Media/dvs-rtdetr-apples.gif" width="250"><br>
+      <img src="Media/dvs-rtdetr-apples.gif" width="240"><br>
       <em>Depth Reduced RTDETR-L Model</em>
     </td>
     <td align="center">
-      <img src="Media/pdvs-apples.gif" width="250"><br>
+      <img src="Media/pdvs-apples.gif" width="240"><br>
       <em>PVDS Model</em>
     </td>
     <td align="center">
-      <img src="Media/yolo-apple.gif" width="250"><br>
+      <img src="Media/yolo-apple.gif" width="240"><br>
       <em>YOLO Model</em>
     </td>
   </tr>
