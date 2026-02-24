@@ -171,15 +171,22 @@ In pickled data files. A plotting script is also uploaded for visualizing the pl
 
 ## DVS RTDETR-L and YOLO Comparison
 
-<p align="center">
-  <img src="Media/dvs-rtdetr-apples.gif" width="30%" />
-  <img src="Media/pdvs-apples.gif" width="30%" />
-  <img src="Media/yolo-apple.gif" width="30%" />
-</p>
-
-<p align="center">
-  <em>Left: Depth Reduced RTDETR-L Model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Middle: PVDS Model &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Right: YOLO Model</em>
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="Media/dvs-rtdetr-apples.gif" width="250"><br>
+      <em>Depth Reduced RTDETR-L Model</em>
+    </td>
+    <td align="center">
+      <img src="Media/pdvs-apples.gif" width="250"><br>
+      <em>PVDS Model</em>
+    </td>
+    <td align="center">
+      <img src="Media/yolo-apple.gif" width="250"><br>
+      <em>YOLO Model</em>
+    </td>
+  </tr>
+</table>
 
 ---
 
