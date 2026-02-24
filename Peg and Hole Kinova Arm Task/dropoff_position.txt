@@ -1,0 +1,5 @@
+DROP_OFF_POSITION = np.array([
+    [0, 1, 0, 0.2761],   # X position
+    [1, 0, 0, -0.4460],   # Y position
+    [0, 0, -1, 0.3322],  # Z height
+    [0, 0, 0, 1]])
