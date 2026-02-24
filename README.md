@@ -52,6 +52,7 @@ https://github.com/IDCL-UCalgary
 ├── rtdetr-s.yaml                      # DVS Student Architecture
 ├── rtdetr-l.yaml                      # Teacher Model Architecture
 ├── data.yaml                          #ARCHIVED: OLD TRAINING YAML FILE
+├── PDVS_Research_Paper.pdf            # Report paper outlining training methodologies and applications
 └── README.md
 ```
 
